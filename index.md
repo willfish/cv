@@ -12,7 +12,7 @@ Software Engineer
 | <a href="https://wills.fish">Personal Site</a>
 </div>
 
-## Currently
+## ABOUT ME
 
 Senior Software Engineer with 6 years experience in Insurance and Fintech startups
 specialising in telematics, behavioural profiling and e-commerce. I take a multidisciplined
@@ -21,7 +21,7 @@ infrastructure in AWS, asynchronous pipelines, fully-tested RESTful APIs and sim
 
 I have production experience building products using Ruby, Rails, RSpec, Postgres, Redis, Terraform, Chef, Docker, AWS and Linux
 
-## Occupation
+## EXPERIENCE
 
 `January 2018 - now`
 **Senior Software Engineer**, MyDrive Solutions Ltd, London
@@ -71,11 +71,11 @@ I have production experience building products using Ruby, Rails, RSpec, Postgre
   - _Achievements_
     - Migrating from manual to automated deployment processes
 
-## Skills
+## SKILLS
 
 Ruby, Rails, Elixir, Phoenix, AWS, Git, Scrum, Docker, Chef, Terraform, RSpec, Postgres, Javascript, Linux, Redis, RSpec, Cucumber
 
-## Professional Certifications
+## CERTIFICATIONS
 
 - **University of Washington**, Programming Languages (94.40%)
 - **AWS**, AWS Solutions Architect Associate
@@ -84,7 +84,7 @@ Ruby, Rails, Elixir, Phoenix, AWS, Git, Scrum, Docker, Chef, Terraform, RSpec, P
 - **Pragmatic Studio**, Mastering Ruby Blocks & Iterators
 - **Pragmatic Studio**, Ruby on Rails 5
 
-## Education
+## EDUCATION
 
 `2010 - 2011`
 **King's College London, London**, MSc Philosophy of Psychiatry (2.1)
@@ -92,7 +92,7 @@ Ruby, Rails, Elixir, Phoenix, AWS, Git, Scrum, Docker, Chef, Terraform, RSpec, P
 `2007 - 2009`
 **Swansea University**, BSc Psychology (2.1)
 
-## Interests
+## INTERESTS
 
 Reading, Cycling, Walking
 
