@@ -4,98 +4,147 @@ title: William Fish
 ---
 
 # William Fish
-
-Software Engineer
+Senior Software Engineer - Ruby, DevOps, Python, Go 
 
 <div id="webaddress">
-<a href="william.michael.fish@gmail.com">william.michael.fish@gmail.com</a>
-| <a href="https://www.linkedin.com/in/william-fish-69494419">LinkedIn</a>
+  <a href="mailto:william.michael.fish@gmail.com">william.michael.fish@gmail.com</a> |
+  <a href="https://www.linkedin.com/in/williamfish-69494419">https://www.linkedin.com/in/williamfish-69494419</a>
 </div>
 
 ## ABOUT ME
 
-Senior Software Engineer with 6 years experience in Insurance and Fintech startups
-specialising in telematics, behavioural profiling and e-commerce. I take a multidisciplined
-approach to solving technical problems and am happy to get my hands dirty building production-ready
-infrastructure in AWS, asynchronous pipelines, fully-tested RESTful APIs and simple frontends.
+Contract Senior Software Engineer with extensive experience working across public services, insurance and fintech. I value simplicity in code and process, concise communication and short feedback loops.
 
-I have production experience building products using Ruby, Rails, RSpec, Postgres, Redis, Terraform, Chef, Docker, AWS and Linux
+## SUMMARY
+
+Languages
+`Ruby, Python, Typescript, Go`
+
+Frameworks
+`Rails, Flask, Express.js, Cypress, Playwright`
+
+Tools
+`Docker, Terraform, AWS, Kubernetes`
+
+Skills
+`Frontends, Backends, Databases, API Development, DevOps, Testing`
+
+Philosophies
+`Agile Principles, Continuous Integration, Continuous Deployment`
+
+Domains
+`Insurance, Fintech, Public Services`
+
+Other
+`Object Orient Programming, Functional Programming, Design Patterns, Algorithms`
 
 ## EXPERIENCE
 
-`January 2018 - now`
-**Senior Software Engineer**, MyDrive Solutions Ltd, London
-  - _Responsibilities_
-    - Support and educate team members
-    - Mentor junior developers
-    - Speak with customers about integrations and requirements
-    - Consult with product owner on technical priorities in the backlog
-    - Making sure planned work is in line with overarching business strategy
-    - Keep third party software up-to-date
-    - Make sure standups, refinements and retrospectives are effective
-  - _Achievements_
-    - Shaved as much as 90% off of the time it takes to run unit tests
-    - Enabled first day commits for new developers by automating developer setup with docker-compose
-    - Drastically improved the redis memory needs of our profiler
-    - Implemented coding standards to speed up developer review process
-    - Helped SRE team migrate from Amazon EC2 to ECS, Codebuild and Codepipeline
+`October 2024 - November 2024`
+**Indeed Flex - Senior Software Engineer (Contract)**
 
-`January 2015 - January 2018`
-**Software Engineer**, MyDrive Solutions Ltd, London
-  - _Responsibilities_
-    - Working in cross-functional teams to deliver product features
-    - Refining future work
-    - Writing unit, integration, acceptance and end-to-end tests
-    - Running standups, refinements and retrospectives
-  - _Achievements_
-    - 100% code test coverage of all new code
-    - Rationalised and documented reporting service
-    - Defined and implemented entire end-to-end testing process to test changes to algorithms
+- 
+    - Achievements & Responsibilities:
+      - Implemented a new Matching and Ranking Algorithm to match workers to jobs.
+      - Consumed the above algorithm in a monolithic rails application
+      - Leveraged SQLAlchemy and Pandas for data processing and implemented unit tests using PyUnit.
+      - Worked on some surrounding backfill tasks to support the new algorithm
 
-`July 2014 - January 2015`
-**Linux Systems Administrator**, MyDrive Solutions Ltd, London
-  - _Responsibilities_
-    - Keeping the lights on
-    - Rolling new infrastructure services based on product need
-    - Out of hours support and pager rota
-  - _Achievements_
-    - Implemented a process for validating map database changes
-    - Migrated chef code to a more modular/easily maintained pattern
+    - Key Technologies:
+      - Flask, SQLAlchemy, Pandas, PyUnit, Ruby
 
-`December 2013 - July 2014`
-**Linux Systems Administrator**, Powa Technologies Ltd, London
-  - _Responsibilities_
-    - Maintaining infrastructure
-    - Resolving live issues
-    - Supporting developers
-  - _Achievements_
-    - Migrating from manual to automated deployment processes
+**HMRC - Senior Software Engineer (Contract)**, 
+`November 2020 - September 2024`  
 
-## SKILLS
+- 
+    - Responsibilities:
+      - Coordinated code reviews, mentoring sessions, pair programming, and managed the product backlog.
+      - Implemented infrastructure and application code solutions ensuring timely upgrades, security patches, and smooth releases.
+    - Achievements:
+      - Built a complex greenfield duty calculator to simplify Northern Ireland trade after Brexit.
+      - Revamped end-to-end tests to instill release confidence.
+      - Led the migration from GovUK PaaS to AWS ECS following the AWS Well-Architected framework.
+      - Documented multiple new APIs
+      - Developed several iterations on search engines including Elasticsearch and Pytorch
+      - Developed a fuzzy suggestions engine enabling simpler navigation of the Online Trade Tariff.
+    - Key Technologies:
+      - Ruby, Postgres, Opensearch, Go, Python, ECS, AWS, Docker, Kanban
 
-Ruby, Rails, Elixir, Phoenix, AWS, Git, Scrum, Docker, Chef, Terraform, RSpec, Postgres, Javascript, Linux, Redis, RSpec, Cucumber
+**MoJ - Software Engineer (Contract)**
+`April 2020 - December 2020`  
+
+- 
+    - **Achievements & Responsibilities:**
+      - Delivered backend APIs to support the frontend team.
+      - Coordinated refinement sessions, conducted code reviews, and provided escalated support.
+      - Automated API documentation using Swagger.
+      - Backfilled missing test coverage and decommissioned legacy applications.
+      - Developed an extensible generic event implementation.
+    - **Key Technologies:**
+      - Ruby, Rails, Postgres, Redis, Kubernetes, Helm Charts, AWS, Docker
+
+**Impero Software - Senior Software Engineer (Contract)**, 
+`November 2019 - April 2020`  
+
+- 
+    - **Achievements & Responsibilities:**
+      - Delivered integration tests for infrastructure as code changes
+    - **Key Technologies:**
+      - Ruby, Rails, MariaDB, Redis, Azure, Puppet, Terraform, AWS S3, Debian, DNSimple
+
+**MyDrive Solutions Ltd - Senior Software Engineer**
+`July 2014 - October 2019`  
+
+- 
+    - **Responsibilities:**
+      - Supported and trained team members while mentoring junior developers.
+      - Managed customer integrations and aligned technical priorities with business goals.
+      - Organized daily standups, led refinements, and facilitated retrospectives.
+    - **Achievements:**
+      - Upgraded projects from Rails 4 to Rails 5.
+      - Improved unit testing performance in Jenkins by up to 90%.
+      - Streamlined onboarding for new developers.
+      - Enhanced coding standards and review processes.
+      - Collaborated with the SRE team to migrate from EC2 to ECS
+      - Migrated from Jenkins to Codebuild and Codepipeline.
+    - **Key Technologies:**
+      - Ruby, Rails, Postgres, Redis, AWS, Terraform, Docker, Jenkins
+
+**Powa - Linux Systems Administrator**
+`December 2013 - July 2014`  
+
+- 
+    - **Responsibilities:**
+      - Maintained infrastructure and resolved live issues during deployment windows.
+      - Supported developers with system access and data management.
+      - Extended and enhanced reports in Java.
+    - **Achievements:**
+      - Migrated from manual to automated deployment processes.
+      - Transitioned legacy products from Rackspace to AWS.
+      - Solved complex challenges with the backup infrastructure.
+    - **Key Technologies:**
+      - Java, CentOS, MySQL, AWS, Rackspace, Puppet, Jenkins, Bacula, Apache Tomcat
 
 ## CERTIFICATIONS
 
-- **University of Washington**, Programming Languages (94.40%)
-- **AWS**, AWS Solutions Architect Associate
-- **AWS**, Big Data Specialty Training
-- **Pragmatic Studio**, Ruby Programming
-- **Pragmatic Studio**, Mastering Ruby Blocks & Iterators
-- **Pragmatic Studio**, Ruby on Rails 5
+- **University of Washington** – Programming Languages (94.40%)
+- **AWS** – AWS Solutions Architect Associate
+- **AWS** – Big Data Specialty Training
 
 ## EDUCATION
 
-`2010 - 2011`
-**King's College London, London**, MSc Philosophy of Psychiatry (2.1)
+`2010 - 2011`  
+**King's College London, London**  
+*MSc in Philosophy of Psychiatry (2.1)*
 
-`2007 - 2009`
-**Swansea University**, BSc Psychology (2.1)
+`2007 - 2010`  
+**Swansea University**  
+*BSc in Psychology (2.1)*
 
-## INTERESTS
+Open to new opportunities!
 
-Reading, Cycling, Walking
+I'm an experienced Fullstack Developer with expertise in Ruby, TypeScript, Python, and a range of other technologies. I also have strong back-end skills with Node.js, Express, and databases, making me a versatile full-stack developer.
 
-<!-- ### Footer
+I primarily specialise in financial and other data-intensive applications. In addition to technical proficiency, I bring well-rounded soft skills and a pragmatic attitude.
 
-Last updated: May 2013 -->
+I'm immediately available and seeking a hybrid role based in London -- or remote anywhere.
