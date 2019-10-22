@@ -9,7 +9,7 @@ Software Engineer
 
 <div id="webaddress">
 <a href="william.michael.fish@gmail.com">william.michael.fish@gmail.com</a>
-| <a href="https://wills.fish">Personal Site</a>
+| <a href="https://www.linkedin.com/in/william-fish-69494419">LinkedIn</a>
 </div>
 
 ## ABOUT ME
