@@ -70,6 +70,7 @@
             ruby
             pkgs.makeWrapper
             pkgs.pandoc
+            pkgs.wkhtmltopdf
             texlive
           ];
         };
