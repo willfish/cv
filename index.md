@@ -13,7 +13,7 @@ Senior Software Engineer - Ruby, DevOps, Python, Go
 
 ## ABOUT ME
 
-Contract Senior Software Engineer with extensive experience working across public services, insurance and fintech. I value simplicity in code and process, concise communication and short feedback loops.
+Senior Software Engineer with extensive experience working across public services, insurance and fintech. I value simplicity in code and process, concise communication and short feedback loops.
 
 ## SUMMARY
 
