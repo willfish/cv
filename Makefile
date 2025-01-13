@@ -10,12 +10,9 @@ PDF_OUTPUT=WilliamFishCV.pdf
 DOCX_OUTPUT=WilliamFishCV.docx
 PRINT_CSS=media/davewhipp-print.css
 
-all: pdf
+all: serve
 
 pdf: build
-	@echo "Generating PDF from HTML..."
-	@echo "HTML_FILE: $(HTML_FILE)"
-	@echo "PDF_OUTPUT: $(PDF_OUTPUT)"
 	cd _site/ && wkhtmltopdf $(HTML_FILE) $(PDF_OUTPUT)
 
 docx: $(MARKDOWN)

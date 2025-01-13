@@ -26,17 +26,11 @@ Frameworks
 Tools
 `Docker, Terraform, AWS, Kubernetes`
 
-Skills
+Skill Areas
 `Frontends, Backends, Databases, API Development, DevOps, Testing`
-
-Philosophies
-`Agile Principles, Continuous Integration, Continuous Deployment`
 
 Domains
 `Insurance, Fintech, Public Services`
-
-Other
-`Object Orient Programming, Functional Programming`
 
 ## EXPERIENCE
 
@@ -44,12 +38,9 @@ Other
 **Indeed Flex - Senior Software Engineer (Contract)**
 
 - 
-    - Achievements & Responsibilities:
-      - Implemented a new Matching and Ranking Algorithm to match workers to jobs.
-      - Consumed the above algorithm in a monolithic rails application
-      - Leveraged SQLAlchemy and Pandas for data processing and implemented unit tests using PyUnit.
-      - Worked on some surrounding backfill tasks to support the new algorithm
-
+    - Achievements:
+      - **Matching and Ranking Algorithm**: Developed a new matching and ranking algorithm for worker-job allocation, overcoming challenges with evolving requirements and a complex legacy codebase. This involved mastering both Python and Ruby to deliver a solution that incorporated a new points system to improve worker scoring and ranking. The algorithm aimed to increase the average score of workers assigned to jobs, potentially leading to increased worker engagement and higher job fill rates
+      - **Data Processing:**: Utilized SQLAlchemy and Pandas to process large datasets of worker, job, and shift information. This involved complex SQL queries, data manipulation with Pandas, and the implementation of a backfill process to correct historical data inaccuracies.
     - Key Technologies:
       - Flask, SQLAlchemy, Pandas, PyUnit, Ruby
 
@@ -58,85 +49,42 @@ Other
 
 - 
     - Responsibilities:
-      - Coordinated code reviews, mentoring sessions, pair programming, and managed the product backlog.
-      - Implemented infrastructure and application code solutions ensuring timely upgrades, security patches, and smooth releases.
+      - Introduced standardized code review templates and checklists, improving code quality and communication within the development team
+      - Implemented and maintained various infrastructure components, including new applications, environment configurations, and autoscaling.
     - Achievements:
-      - Built a complex greenfield duty calculator to simplify Northern Ireland trade after Brexit.
-      - Revamped end-to-end tests to instill release confidence.
-      - Led the migration from GovUK PaaS to AWS ECS following the AWS Well-Architected framework.
-      - Documented multiple new APIs
-      - Developed several iterations on search engines including Elasticsearch and Pytorch
-      - Developed a fuzzy suggestions engine enabling simpler navigation of the Online Trade Tariff.
+      - Led the migration from GovUK PaaS to AWS ECS, ensuring a smooth transition through iterative deployments and comprehensive testing with Cypress. This involved configuring AWS services such as ECS, Cloudfront, Application Load Balancers, and Route 53.
+      - Developed a greenfield duty calculator to simplify Northern Ireland trade post-Brexit. This interactive form helped users understand complex regulations by guiding them through relevant questions about goods, measures, and rules of origin.
+      - Revamped end-to-end tests using Cypress, following a Page Object Model to improve test coverage and maintainability. Reduced test suite runtime by 95% (from 6 hours to 30 minutes), enabling more frequent testing and increased release confidence. Implemented smoke tests to catch production issues early, significantly reducing production errors.
+      - Developed and iteratively improved search engine functionality. This included enhancing autocomplete suggestions with trigram indexes (eliminating caching and improving performance), optimizing OpenSearch indexes with tokenization and synonyms, and implementing semantic text search using a neural network deployed via Dockerized Lambda functions. These improvements significantly increased search accuracy for both internal and external users
     - Key Technologies:
-      - Ruby, Postgres, Opensearch, Go, Python, ECS, AWS, Docker, Kanban
+      - Ruby, Postgres, Opensearch, Go, Python, ECS, AWS, Docker
 
 **MoJ - Software Engineer (Contract)**
 `April 2020 - December 2020`  
 
->
->    - **Achievements & Responsibilities:**
->      - Delivered backend APIs to support the frontend team.
->      - Coordinated refinement sessions, conducted code reviews, and provided escalated support.
->      - Automated API documentation using Swagger.
->      - Backfilled missing test coverage and decommissioned legacy applications.
->      - Developed an extensible generic event implementation.
->    - **Key Technologies:**
->      - Ruby, Rails, Postgres, Redis, Kubernetes, Helm Charts, AWS, Docker
+-  
+     - Achievements:
+       - Delivered backend APIs using Ruby on Rails to support the movement of prisoners throughout the courts and prison service. These APIs provided both informational and update functionalities.
+       - Automated API documentation using Swagger, reducing developer overhead and ensuring accurate and up-to-date documentation.
+       - Decommissioned legacy Kubernetes applications deployed with Helm Charts, ensuring a smooth transition to the new Book a Secure Move service.
+       - Developed an extensible generic event implementation to enable stakeholders to update the system in an event-driven manner. This improved system flexibility and reduced overhead for handling new events
+     - Key Technologies:
+       - Ruby, Rails, Postgres, Redis, Kubernetes, Helm Charts, AWS, Docker
 
-**Impero Software - Senior Software Engineer (Contract)**, 
+**Impero Software - Senior Software Engineer (Contract)**
 `November 2019 - April 2020`  
 
-> 
->   - **Achievements & Responsibilities:**
->     - Delivered integration tests for infrastructure as code changes
->   - **Key Technologies:**
->     - Ruby, Rails, MariaDB, Redis, Azure, Puppet, Terraform, AWS S3, Debian, DNSimple
-
-**MyDrive Solutions Ltd - Senior Software Engineer**
-`July 2014 - October 2019`  
-
 - 
-    - **Responsibilities:**
-      - Supported and trained team members while mentoring junior developers.
-      - Managed customer integrations and aligned technical priorities with business goals.
-      - Organized daily standups, led refinements, and facilitated retrospectives.
-    - **Achievements:**
-      - Upgraded projects from Rails 4 to Rails 5.
-      - Improved unit testing performance in Jenkins by up to 90%.
-      - Streamlined onboarding for new developers.
-      - Enhanced coding standards and review processes.
-      - Collaborated with the SRE team to migrate from EC2 to ECS
-      - Migrated from Jenkins to Codebuild and Codepipeline.
-    - **Key Technologies:**
-      - Ruby, Rails, Postgres, Redis, AWS, Terraform, Docker, Jenkins
-
-**Powa - Linux Systems Administrator**
-`December 2013 - July 2014`  
-
-- 
-    - **Responsibilities:**
-      - Maintained infrastructure and resolved live issues during deployment windows.
-      - Supported developers with system access and data management.
-      - Extended and enhanced reports in Java.
-    - **Achievements:**
-      - Migrated from manual to automated deployment processes.
-      - Transitioned legacy products from Rackspace to AWS.
-      - Solved complex challenges with the backup infrastructure.
-    - **Key Technologies:**
-      - Java, CentOS, MySQL, AWS, Rackspace, Puppet, Jenkins, Bacula, Apache Tomcat
-
-## CERTIFICATIONS
-
-- **University of Washington** – Programming Languages (94.40%)
-- **AWS** – AWS Solutions Architect Associate
-- **AWS** – Big Data Specialty Training
+    - Achievements & Responsibilities:
+      - Implemented integration tests using Test Kitchen, Vagrant, and VirtualBox to validate infrastructure-as-code changes, ensuring the reliability and stability of core services during upgrades of Puppet recipes and OS versions.
+    - Key Technologies:
+      - Ruby, Rails, MariaDB, Redis, Azure, Puppet, Terraform, AWS S3, Debian, DNSimple
 
 ## EDUCATION
 
-`2010 - 2011`  
+`2010 - 2011`
 **King's College London, London**  
 *MSc in Philosophy of Psychiatry (2.1)*
-
-`2007 - 2010`  
+`2007 - 2010`
 **Swansea University**  
 *BSc in Psychology (2.1)*
