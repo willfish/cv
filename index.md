@@ -39,8 +39,8 @@ Domains
 
 - 
     - Achievements:
-      - **Matching and Ranking Algorithm**: Developed a new matching and ranking algorithm for worker-job allocation, overcoming challenges with evolving requirements and a complex legacy codebase. This involved mastering both Python and Ruby to deliver a solution that incorporated a new points system to improve worker scoring and ranking. The algorithm aimed to increase the average score of workers assigned to jobs, potentially leading to increased worker engagement and higher job fill rates
-      - **Data Processing:**: Utilized SQLAlchemy and Pandas to process large datasets of worker, job, and shift information. This involved complex SQL queries, data manipulation with Pandas, and the implementation of a backfill process to correct historical data inaccuracies.
+      - Matching and Ranking Algorithm: Developed a new matching and ranking algorithm for worker-job allocation, overcoming challenges with evolving requirements and a complex legacy codebase. This involved mastering both Python and Ruby to deliver a solution that incorporated a new points system to improve worker scoring and ranking. The algorithm aimed to increase the average score of workers assigned to jobs, potentially leading to increased worker engagement and higher job fill rates
+      - Data Processing:: Utilized SQLAlchemy and Pandas to process large datasets of worker, job, and shift information. This involved complex SQL queries, data manipulation with Pandas, and the implementation of a backfill process to correct historical data inaccuracies.
     - Key Technologies:
       - Flask, SQLAlchemy, Pandas, PyUnit, Ruby
 
