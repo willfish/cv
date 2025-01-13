@@ -36,7 +36,7 @@ Domains
 `Insurance, Fintech, Public Services`
 
 Other
-`Object Orient Programming, Functional Programming, Design Patterns, Algorithms`
+`Object Orient Programming, Functional Programming`
 
 ## EXPERIENCE
 
@@ -73,24 +73,24 @@ Other
 **MoJ - Software Engineer (Contract)**
 `April 2020 - December 2020`  
 
-- 
-    - **Achievements & Responsibilities:**
-      - Delivered backend APIs to support the frontend team.
-      - Coordinated refinement sessions, conducted code reviews, and provided escalated support.
-      - Automated API documentation using Swagger.
-      - Backfilled missing test coverage and decommissioned legacy applications.
-      - Developed an extensible generic event implementation.
-    - **Key Technologies:**
-      - Ruby, Rails, Postgres, Redis, Kubernetes, Helm Charts, AWS, Docker
+>
+>    - **Achievements & Responsibilities:**
+>      - Delivered backend APIs to support the frontend team.
+>      - Coordinated refinement sessions, conducted code reviews, and provided escalated support.
+>      - Automated API documentation using Swagger.
+>      - Backfilled missing test coverage and decommissioned legacy applications.
+>      - Developed an extensible generic event implementation.
+>    - **Key Technologies:**
+>      - Ruby, Rails, Postgres, Redis, Kubernetes, Helm Charts, AWS, Docker
 
 **Impero Software - Senior Software Engineer (Contract)**, 
 `November 2019 - April 2020`  
 
-- 
-    - **Achievements & Responsibilities:**
-      - Delivered integration tests for infrastructure as code changes
-    - **Key Technologies:**
-      - Ruby, Rails, MariaDB, Redis, Azure, Puppet, Terraform, AWS S3, Debian, DNSimple
+> 
+>   - **Achievements & Responsibilities:**
+>     - Delivered integration tests for infrastructure as code changes
+>   - **Key Technologies:**
+>     - Ruby, Rails, MariaDB, Redis, Azure, Puppet, Terraform, AWS S3, Debian, DNSimple
 
 **MyDrive Solutions Ltd - Senior Software Engineer**
 `July 2014 - October 2019`  
@@ -140,11 +140,3 @@ Other
 `2007 - 2010`  
 **Swansea University**  
 *BSc in Psychology (2.1)*
-
-Open to new opportunities!
-
-I'm an experienced Fullstack Developer with expertise in Ruby, TypeScript, Python, and a range of other technologies. I also have strong back-end skills with Node.js, Express, and databases, making me a versatile full-stack developer.
-
-I primarily specialise in financial and other data-intensive applications. In addition to technical proficiency, I bring well-rounded soft skills and a pragmatic attitude.
-
-I'm immediately available and seeking a hybrid role based in London -- or remote anywhere.

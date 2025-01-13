@@ -42,6 +42,10 @@
           "--with-libyaml-include=${libyaml.dev}/include"
           "--with-libyaml-lib=${libyaml.out}/lib"
         ];
+
+        texlive = pkgs.texlive.combine {
+          inherit (pkgs.texlive) scheme-small xetex;
+        };
       in {
         devShells.default = pkgs.mkShell {
           shellHook = ''
@@ -62,7 +66,12 @@
             export PATH=$GEM_HOME/bin:$PATH
           '';
 
-          buildInputs = [ruby];
+          buildInputs = [
+            ruby
+            pkgs.makeWrapper
+            pkgs.pandoc
+            texlive
+          ];
         };
       });
 }
