@@ -4,7 +4,7 @@ title: William Fish
 ---
 
 # William Fish
-Senior Software Engineer - Ruby, DevOps, Python, Go 
+Senior/Lead Software Engineer - Ruby, DevOps, Python, Go 
 
 <div id="webaddress">
   <a href="mailto:william.michael.fish@gmail.com">william.michael.fish@gmail.com</a> |
