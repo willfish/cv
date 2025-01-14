@@ -13,7 +13,7 @@ Senior/Lead Software Engineer - Ruby, DevOps, Python, Go
 
 ## ABOUT ME
 
-Senior Software Engineer with extensive experience working across public services, insurance and fintech. I value simplicity in code and process, concise communication and short feedback loops.
+Senior/Lead Software Engineer with extensive experience working across public services, insurance and fintech. I value simplicity in code and process, concise communication and short feedback loops. Proficient in DevOps practices, including designing and optimizing CI/CD pipelines, I ensure efficient and reliable software delivery.
 
 ## SUMMARY
 
