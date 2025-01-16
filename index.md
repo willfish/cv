@@ -156,8 +156,8 @@ Responsibilities
 
 `2010 - 2011`
 **King's College London**  
-*MSc in Philosophy of Psychiatry (2.1)*
+MSc in Philosophy of Psychiatry (2.1)
 
 `2007 - 2010`
 **Swansea University**  
-*BSc in Psychology (2.1)*
+BSc in Psychology (2.1)
