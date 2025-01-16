@@ -89,22 +89,15 @@ ul {
 	margin-top: -0.5em;
 	margin-left: 1.6em;
 }
+
 ul li::marker {
   font-size: 1.6em;
 }
 
-/*uncomment to get dashes in the list*/
-/*li:before {
-	content: "-";
-	position: relative;
-	left: -0.25em;
-}*/
-
 li {
-	/*second line indent*/
+	margin-right: 20%;
 	padding-left: 1.25em;
 	text-indent: -1.25em;
-	/*color: #777;*/
 }
 
 li ul {
