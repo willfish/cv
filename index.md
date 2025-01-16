@@ -123,7 +123,7 @@ Achievements & Responsibilities
   <em>Debian</em>
 </p>
 
-**MyDrive Solutions - Senior Software Engineer (Permanent)**
+**MyDrive Solutions (Startup) - Senior Software Engineer (Permanent)**
 `July 2014 - October 2019`
 
 Achievements
