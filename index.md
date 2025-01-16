@@ -80,6 +80,22 @@ Domains
     - Key Technologies:
       - Ruby, Rails, MariaDB, Redis, Azure, Puppet, Terraform, AWS S3, Debian, DNSimple
 
+**MyDrive Solutions - Senior Software Engineer**
+`July 2014 - October 2019`
+
+- 
+- Achievements
+    - Migrated our CI solution from a self-hosted Jenkins to codebuild and codepipeline
+    - Migrated applications from EC2 to ECS with terraform by dockerising and then validating the transition from lower to upper environments
+    - Build out of a Ruby on Rails phone platform to capture, handle and offload trip data from mobile phones to the MyDrive data pipeline
+    - Designed and built an end-to-end test suite using RSpec to validate integrations of live services and prove core user journeys were not degraded by development activities
+- Responsibilities
+    - Collaborating with the wider team to ensure the right things got built
+    - Reviewing and testing other developers code to prove work meets expectations
+    - Out of hours support for the applications and infrastructure and keeping up our SLAs
+    - Working with the product team to ensure the right things were being built
+    - Supporting and mentoring developers to ensure they were able to deliver their work
+
 ## EDUCATION
 
 `2010 - 2011`
