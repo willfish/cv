@@ -55,11 +55,6 @@ Achievements
 **HMRC - Senior Software Engineer (Contract)**,
 `November 2020 - September 2024`
 
-Responsibilities
-
-- Introduced standardized code review templates and checklists, improving code quality and communication within the development team
-- Implemented and maintained various infrastructure components, including new applications, environment configurations, and autoscaling.
-
 Achievements
 
 - Led the migration from GovUK PaaS to AWS ECS, ensuring a smooth transition through iterative deployments and comprehensive testing with Cypress. This involved configuring AWS services such as ECS, Cloudfront, Application Load Balancers, and Route 53.
@@ -107,7 +102,7 @@ Achievements
 **Impero Software - Senior Software Engineer (Contract)**
 `November 2019 - April 2020`
 
-Achievements & Responsibilities
+Achievements
 
 - Implemented integration tests using Test Kitchen, Vagrant, and VirtualBox to validate infrastructure-as-code changes, ensuring the reliability and stability of core services during upgrades of Puppet recipes and OS versions.
 <p>
