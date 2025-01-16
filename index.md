@@ -49,6 +49,7 @@ Achievements
   <em>Pandas</em>,
   <em>PyUnit</em>,
   <em>Ruby</em>
+  <em>Rails</em>
 </p>
 
 **HMRC - Senior Software Engineer (Contract)**,
@@ -122,14 +123,14 @@ Achievements & Responsibilities
   <em>Debian</em>
 </p>
 
-**MyDrive Solutions - Senior Software Engineer**
+**MyDrive Solutions - Senior Software Engineer (Permanent)**
 `July 2014 - October 2019`
 
 Achievements
 
 - Migrated our CI solution from a self-hosted Jenkins to codebuild and codepipeline
 - Migrated applications from EC2 to ECS with terraform by dockerising and then validating the transition from lower to upper environments
-- Build out of a Ruby on Rails phone platform to capture, handle and offload trip data from mobile phones to the MyDrive data pipeline
+- Built out of a Ruby on Rails phone platform to capture, handle and offload trip data from mobile phones to the MyDrive data pipeline
 - Designed and built an end-to-end test suite using RSpec to validate integrations of live services and prove core user journeys were not degraded by development activities
 
 Responsibilities
