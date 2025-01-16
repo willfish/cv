@@ -7,8 +7,7 @@ title: William Fish
 Senior/Lead Software Engineer - Ruby, DevOps, Python, Go 
 
 <div id="webaddress">
-  <a href="mailto:william.michael.fish@gmail.com">william.michael.fish@gmail.com</a> |
-  <a href="https://www.linkedin.com/in/williamfish-69494419">https://www.linkedin.com/in/williamfish-69494419</a>
+  <a href="mailto:william.michael.fish@gmail.com">william.michael.fish@gmail.com</a>
 </div>
 
 ## ABOUT ME
@@ -44,11 +43,12 @@ Achievements
 
 <p>
   Key Technologies:
+  <em>Python</em>,
   <em>Flask</em>,
   <em>SQLAlchemy</em>,
   <em>Pandas</em>,
   <em>PyUnit</em>,
-  <em>Ruby</em>
+  <em>Ruby</em>,
   <em>Rails</em>
 </p>
 
