@@ -1,10 +1,10 @@
 ---
 layout: cv
-title: William Fish
+title: William Fish - Senior Software Engineer - Ruby, DevOps, Python, Go
 ---
 
 # William Fish
-Senior/Lead Software Engineer - Ruby, DevOps, Python, Go 
+Senior Software Engineer - Ruby, DevOps, Python, Go
 
 <div id="webaddress">
   <a href="mailto:william.michael.fish@gmail.com">william.michael.fish@gmail.com</a>
@@ -12,7 +12,7 @@ Senior/Lead Software Engineer - Ruby, DevOps, Python, Go
 
 ## ABOUT ME
 
-Senior/Lead Software Engineer with extensive experience working across public services, insurance and fintech. I value simplicity in code and process, concise communication and short feedback loops. Proficient in DevOps practices, including designing and optimizing CI/CD pipelines, I ensure efficient and reliable software delivery.
+Senior Software Engineer with extensive experience working across public services, insurance and fintech. I value simplicity in code and process, concise communication and short feedback loops. Proficient in DevOps practices, including designing and optimizing CI/CD pipelines, I ensure efficient and reliable software delivery.
 
 ## SUMMARY
 
