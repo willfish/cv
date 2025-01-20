@@ -146,7 +146,7 @@ p {
 	left: 25%;
 	margin-bottom: 0.7em;
 	margin-right: 0;
-	width: 55%;
+	width: 60%;
 }
 
 code {
@@ -155,12 +155,12 @@ code {
 	/*line-height: 1em;*/
 	font-family: Monaco, Menlo, monospace, sans-serif;
 	color: #aaa;
-	right: -10%;
 }
 
 p code {
 	position: absolute;
 	text-align: right;
+	right: 0%;
 }
 
 ul {
