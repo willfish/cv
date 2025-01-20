@@ -272,3 +272,7 @@ strong {
 	display: none;
 	visibility: hidden;
 }
+
+#print-button {
+	display: none;
+}

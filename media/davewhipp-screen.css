@@ -270,9 +270,30 @@ strong {
 	display: none;
 }
 
+#print-button {
+  display: inline-block;
+  margin: 1em 0;
+  padding: 10px 20px;
+  font-family: Avenir, Verdana, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  background-color: #bc412b; /* Matches the header color */
+  border: none;
+  border-radius: 5px; /* Rounded edges */
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
 
+#print-button:hover {
+  background-color: #a63724; /* Darker shade on hover */
+  transform: scale(1.05); /* Slight zoom on hover */
+}
 
-/*
-@media only screen and (max-width: 480px) {
-	make one column somehow...
-}*/
+#print-button:active {
+  background-color: #8c2f1d; /* Even darker shade when clicked */
+  transform: scale(0.95); /* Slight "press" effect */
+}

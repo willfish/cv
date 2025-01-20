@@ -3,6 +3,8 @@ layout: cv
 title: William Fish - Senior Software Engineer - Ruby, DevOps, Python, Go
 ---
 
+<button id="print-button" onclick="window.print()">Print PDF</button>
+
 # William Fish
 
 Senior Software Engineer - Ruby, DevOps, Python, Go
