@@ -109,6 +109,7 @@ section {
 
 body {
 	line-height: 1;
+	width: 210mm;
 }
 
 ul {
@@ -144,16 +145,11 @@ table {
 
 /* end of reset */
 
-
-
 body {
 	font: normal normal 400;
 	font-size: 12pt;
 	line-height: 1.35em;
-	/*also written as...  font: normal normal 400 100%/1.5em;*/
 	font-family: Avenir, Verdana, sans-serif;
-	/*margin-top: 1em;
-	margin-left: 1em;*/
 }
 
 p {
@@ -161,13 +157,12 @@ p {
 	left: 25%;
 	margin-bottom: 0.2em;
 	margin-right: 0;
-	width: 60%;
+	width: 75%;
 }
 
 code {
 	font: normal normal;
 	font-size: 90%;
-	/*line-height: 1em;*/
 	font-family: Monaco, Menlo, monospace, sans-serif;
 	color: #ccc;
 }
@@ -175,7 +170,7 @@ code {
 p code {
 	position: absolute;
 	text-align: right;
-	right: -10%;
+	right: -30%;
 }
 
 
@@ -184,27 +179,17 @@ ul {
 	left: 25%;
 	width: 75%;
 	margin-bottom: 1em;
-	/*margin-top: -0.5em;*/
 }
 
-/*uncomment to get dashes in the list*/
-/*li:before {
-	content: "-";
-	position: relative;
-	left: -0.25em;
-}*/
-
 li {
-	/*second line indent*/
 	padding-left: 1.25em;
 	text-indent: -1.25em;
-	/*color: #777;*/
 }
 
 li ul {
 	position: relative;
 	left: 0;
-	width: 100%;
+	width: 90%;
 	margin-top: 0.25em;
 }
 
