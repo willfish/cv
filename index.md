@@ -28,7 +28,7 @@ Tools
 `Docker, Terraform, AWS, Kubernetes`
 
 Skill Areas
-`Frontends, Backends, Databases, API Development, DevOps, Testing`
+`Frontends, Backends, Databases, API Development, DevOps`
 
 Domains
 `Insurance, Fintech, Public Services`
@@ -36,7 +36,9 @@ Domains
 ## EXPERIENCE
 
 **Indeed Flex - Senior Software Engineer**
-`(Recruitment - Contract) October 2024 - November 2024`
+`Oct 2024 - Nov 2024`
+
+*Recruitment (Contract)*
 
 Achievements
 
@@ -55,7 +57,9 @@ Achievements
 </p>
 
 **HMRC - Senior Software Engineer**,
-`(Public - Contract) November 2020 - September 2024`
+`Nov 2020 - Sep 2024`
+
+*Public (Contract)*
 
 Achievements
 
@@ -79,7 +83,9 @@ Achievements
 </p>
 
 **Ministry of Justice - Software Engineer**
-`(Public - Contract) April 2020 - December 2020`  
+`Apr 2020 - Dec 2020`  
+
+*Public (Contract)*
 
 Achievements
 
@@ -102,7 +108,9 @@ Achievements
 </p>
 
 **Impero Software - Senior Software Engineer**
-`(EdTech - Contract) November 2019 - April 2020`
+`Nov 2019 - Apr 2020`
+
+*EdTech (Contract)*
 
 Achievements
 
@@ -122,7 +130,9 @@ Achievements
 </p>
 
 **MyDrive Solutions - Senior Software Engineer**
-`(Fintech Startup - Permanent) July 2014 - October 2019`
+`Jul 2014 - Oct 2019`
+
+*FinTech Startup (Permanent)*
 
 Achievements
 
