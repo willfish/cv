@@ -68,7 +68,7 @@
 
           buildInputs = [
             ruby
-            pkgs.makeWrapper
+            pkgs.gnumake
             pkgs.pandoc
             pkgs.wkhtmltopdf
             texlive

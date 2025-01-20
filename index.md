@@ -4,10 +4,12 @@ title: William Fish - Senior Software Engineer - Ruby, DevOps, Python, Go
 ---
 
 # William Fish
+
 Senior Software Engineer - Ruby, DevOps, Python, Go
 
 <div id="webaddress">
-  <a href="mailto:william.michael.fish@gmail.com">william.michael.fish@gmail.com</a>
+  <a href="mailto:william.michael.fish@gmail.com">william.michael.fish@gmail.com</a> |
+  <a href="https://github.com/willfish">https://github.com/willfish</a>
 </div>
 
 ## ABOUT ME
@@ -33,8 +35,8 @@ Domains
 
 ## EXPERIENCE
 
-`October 2024 - November 2024`
-**Indeed Flex - Senior Software Engineer (Contract)**
+**Indeed Flex - Senior Software Engineer**
+`(Recruitment - Contract) October 2024 - November 2024`
 
 Achievements
 
@@ -52,8 +54,8 @@ Achievements
   <em>Rails</em>
 </p>
 
-**HMRC - Senior Software Engineer (Contract)**,
-`November 2020 - September 2024`
+**HMRC - Senior Software Engineer**,
+`(Public - Contract) November 2020 - September 2024`
 
 Achievements
 
@@ -76,8 +78,8 @@ Achievements
   <em>Docker</em>
 </p>
 
-**MoJ - Software Engineer (Contract)**
-`April 2020 - December 2020`  
+**Ministry of Justice - Software Engineer**
+`(Public - Contract) April 2020 - December 2020`  
 
 Achievements
 
@@ -99,12 +101,13 @@ Achievements
   <em>Docker</em>
 </p>
 
-**Impero Software - Senior Software Engineer (Contract)**
-`November 2019 - April 2020`
+**Impero Software - Senior Software Engineer**
+`(EdTech - Contract) November 2019 - April 2020`
 
 Achievements
 
 - Implemented integration tests using Test Kitchen, Vagrant, and VirtualBox to validate infrastructure-as-code changes, ensuring the reliability and stability of core services during upgrades of Puppet recipes and OS versions.
+
 <p>
   Key Technologies:
   <em>Ruby</em>,
@@ -118,8 +121,8 @@ Achievements
   <em>Debian</em>
 </p>
 
-**MyDrive Solutions (Startup) - Senior Software Engineer (Permanent)**
-`July 2014 - October 2019`
+**MyDrive Solutions - Senior Software Engineer**
+`(Fintech Startup - Permanent) July 2014 - October 2019`
 
 Achievements
 
