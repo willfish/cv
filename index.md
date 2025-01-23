@@ -1,101 +1,171 @@
 ---
 layout: cv
-title: William Fish
+title: William Fish - Senior Software Engineer - Ruby, DevOps, Python, Go
 ---
+
+<button id="print-button" onclick="window.print()">Print</button>
 
 # William Fish
 
-Software Engineer
+Senior Software Engineer - Ruby, DevOps, Python, Go
 
 <div id="webaddress">
-<a href="william.michael.fish@gmail.com">william.michael.fish@gmail.com</a>
-| <a href="https://wills.fish">Personal Site</a>
+  <a href="mailto:william.michael.fish@gmail.com">william.michael.fish@gmail.com</a> |
+  <a href="https://github.com/willfish">https://github.com/willfish</a>
 </div>
-
 ## ABOUT ME
 
-Senior Software Engineer with 6 years experience in Insurance and Fintech startups
-specialising in telematics, behavioural profiling and e-commerce. I take a multidisciplined
-approach to solving technical problems and am happy to get my hands dirty building production-ready
-infrastructure in AWS, asynchronous pipelines, fully-tested RESTful APIs and simple frontends.
+Senior Software Engineer with extensive experience working across public services, insurance and fintech. I value simplicity in code and process, concise communication and short feedback loops. Proficient in DevOps practices, including designing and optimizing CI/CD pipelines, I ensure efficient and reliable software delivery.
 
-I have production experience building products using Ruby, Rails, RSpec, Postgres, Redis, Terraform, Chef, Docker, AWS and Linux
+## SUMMARY
+
+Languages
+`Ruby, Python, Typescript, Go`
+
+Frameworks
+`Rails, Flask, Express.js, Cypress, Playwright`
+
+Tools
+`Docker, Terraform, AWS, Kubernetes`
+
+Skill Areas
+`Frontends, Backends, Databases, API Development, DevOps`
+
+Domains
+`Insurance, Fintech, Public Services`
 
 ## EXPERIENCE
 
-`January 2018 - now`
-**Senior Software Engineer**, MyDrive Solutions Ltd, London
-  - _Responsibilities_
-    - Support and educate team members
-    - Mentor junior developers
-    - Speak with customers about integrations and requirements
-    - Consult with product owner on technical priorities in the backlog
-    - Making sure planned work is in line with overarching business strategy
-    - Keep third party software up-to-date
-    - Make sure standups, refinements and retrospectives are effective
-  - _Achievements_
-    - Shaved as much as 90% off of the time it takes to run unit tests
-    - Enabled first day commits for new developers by automating developer setup with docker-compose
-    - Drastically improved the redis memory needs of our asynchronous profiler
-    - Standardised coding standards to speed up developer review process
-    - Helped SRE team migrate from Amazon EC2 to ECS, Codebuild and Codepipeline
+**Indeed Flex - Senior Software Engineer**
+`Oct 2024 - Nov 2024`
 
-`January 2015 - January 2018`
-**Software Engineer**, MyDrive Solutions Ltd, London
-  - _Responsibilities_
-    - Working in cross-functional teams to deliver product features
-    - Refining future work
-    - Writing unit, integration, acceptance and end-to-end tests
-    - Running standups, refinements and retrospectives
-  - _Achievements_
-    - 100% code test coverage of all new code
-    - Rationalised and documented reporting service
-    - Defined and implemented entire end-to-end testing process to test changes to algorithms
+*Recruitment (Contract)*
 
-`July 2014 - January 2015`
-**Linux Systems Administrator**, MyDrive Solutions Ltd, London
-  - _Responsibilities_
-    - Keeping the lights on
-    - Rolling new infrastructure services based on product need
-    - Out of hours support and pager rota
-  - _Achievements_
-    - Implemented a process for validating map database changes
-    - Migrated chef code to a more modular/easily maintained pattern
+Achievements
 
-`December 2013 - July 2014`
-**Linux Systems Administrator**, Powa Technologies Ltd, London
-  - _Responsibilities_
-    - Maintaining infrastructure
-    - Resolving live issues
-    - Supporting developers
-  - _Achievements_
-    - Migrating from manual to automated deployment processes
+- Matching and Ranking Algorithm: Developed a new matching and ranking algorithm for worker-job allocation, overcoming challenges with evolving requirements and a complex legacy codebase. This involved mastering both Python and Ruby to deliver a solution that incorporated a new points system to improve worker scoring and ranking. The algorithm aimed to increase the average score of workers assigned to jobs, potentially leading to increased worker engagement and higher job fill rates
+- Data Processing: Utilized SQLAlchemy and Pandas to process large datasets of worker, job, and shift information. This involved complex SQL queries, data manipulation with Pandas, and the implementation of a backfill process to correct historical data inaccuracies.
 
-## SKILLS
+<p>
+  Key Technologies:
+  <em>Python</em>,
+  <em>Flask</em>,
+  <em>SQLAlchemy</em>,
+  <em>Pandas</em>,
+  <em>PyUnit</em>,
+  <em>Ruby</em>,
+  <em>Rails</em>
+</p>
 
-Ruby, Rails, Elixir, Phoenix, AWS, Git, Scrum, Docker, Chef, Terraform, RSpec, Postgres, Javascript, Linux, Redis, RSpec, Cucumber
+**HMRC - Senior Software Engineer**,
+`Nov 2020 - Sep 2024`
 
-## CERTIFICATIONS
+*Public (Contract)*
 
-- **University of Washington**, Programming Languages (94.40%)
-- **AWS**, AWS Solutions Architect Associate
-- **AWS**, Big Data Specialty Training
-- **Pragmatic Studio**, Ruby Programming
-- **Pragmatic Studio**, Mastering Ruby Blocks & Iterators
-- **Pragmatic Studio**, Ruby on Rails 5
+Achievements
+
+- Co-Led the migration from GovUK PaaS to AWS ECS, ensuring a smooth transition through iterative deployments and comprehensive testing with Cypress. This involved configuring AWS services such as ECS, Cloudfront, Application Load Balancers, and Route 53.
+- Developed a greenfield duty calculator to simplify Northern Ireland trade post-Brexit. This interactive form helped users understand complex regulations by guiding them through relevant questions about goods, measures, and rules of origin.
+- Developed and iteratively improved search engine functionality. This included enhancing autocomplete suggestions with trigram indexes (eliminating caching and improving performance), optimizing OpenSearch indexes with tokenization and synonyms, and implementing semantic text search using a neural network deployed via Dockerized Lambda functions. These improvements significantly increased search accuracy for both internal and external users
+
+<p>
+  Key Technologies:
+  <em>Ruby</em>,
+  <em>Rails</em>,
+  <em>Postgres</em>,
+  <em>Opensearch</em>,
+  <em>Go</em>,
+  <em>Python</em>,
+  <em>Flask</em>,
+  <em>ECS</em>,
+  <em>AWS</em>,
+  <em>Docker</em>
+</p>
+
+**Ministry of Justice - Software Engineer**
+`Apr 2020 - Dec 2020`  
+
+*Public (Contract)*
+
+Achievements
+
+- Delivered backend APIs using Ruby on Rails to support the movement of prisoners throughout the courts and prison service. These APIs provided both informational and update functionalities.
+- Automated API documentation using Swagger, reducing developer overhead and ensuring accurate and up-to-date documentation.
+- Decommissioned legacy Kubernetes applications deployed with Helm Charts, ensuring a smooth transition to the new Book a Secure Move service.
+- Developed an extensible generic event implementation to enable stakeholders to update the system in an event-driven manner. This improved system flexibility and reduced overhead for handling new events
+- Ruby, Rails, Postgres, Redis, Kubernetes, Helm Charts, AWS, Docker
+
+<p>
+  Key Technologies:
+  <em>Ruby</em>,
+  <em>Rails</em>,
+  <em>Postgres</em>,
+  <em>Redis</em>,
+  <em>Kubernetes</em>,
+  <em>Helm</em>,
+  <em>AWS</em>,
+  <em>Docker</em>
+</p>
+
+**Impero Software - Senior Software Engineer**
+`Nov 2019 - Apr 2020`
+
+*EdTech (Contract)*
+
+Achievements
+
+- Implemented integration tests using Test Kitchen, Vagrant, and VirtualBox to validate infrastructure-as-code changes, ensuring the reliability and stability of core services during upgrades of Puppet recipes and OS versions.
+
+<p>
+  Key Technologies:
+  <em>Ruby</em>,
+  <em>Rails</em>,
+  <em>MariaDB</em>,
+  <em>Redis</em>,
+  <em>Azure</em>,
+  <em>Puppet</em>,
+  <em>Terraform</em>,
+  <em>AWS</em>,
+  <em>Debian</em>
+</p>
+
+**MyDrive Solutions - Senior Software Engineer**
+`Jul 2014 - Oct 2019`
+
+*FinTech Startup (Permanent)*
+
+Achievements
+
+- Migrated our CI solution from a self-hosted Jenkins to codebuild and codepipeline
+- Migrated applications from EC2 to ECS with terraform by dockerising and then validating the transition from lower to upper environments
+- Built out of a Ruby on Rails phone platform to capture, handle and offload trip data from mobile phones to the MyDrive data pipeline
+- Designed and built an end-to-end test suite using RSpec to validate integrations of live services and prove core user journeys were not degraded by development activities
+
+Responsibilities
+
+- Collaborating with the wider team to ensure the right things got built
+- Reviewing and testing other developers code to prove work meets expectations
+- Out of hours support for the applications and infrastructure and keeping up our SLAs
+
+<p>
+  Key Technologies:
+  <em>Ruby</em>,
+  <em>Rails</em>,
+  <em>Postgres</em>,
+  <em>Redis</em>,
+  <em>Chef</em>,
+  <em>Terraform</em>,
+  <em>AWS</em>,
+  <em>Ubuntu</em>,
+  <em>PostGIS</em>
+</p>
 
 ## EDUCATION
 
 `2010 - 2011`
-**King's College London, London**, MSc Philosophy of Psychiatry (2.1)
+**King's College London**  
+MSc in Philosophy of Psychiatry (2.1)
 
-`2007 - 2009`
-**Swansea University**, BSc Psychology (2.1)
-
-## INTERESTS
-
-Reading, Cycling, Walking
-
-<!-- ### Footer
-
-Last updated: May 2013 -->
+`2007 - 2010`
+**Swansea University**  
+BSc in Psychology (2.1)
