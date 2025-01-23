@@ -64,9 +64,8 @@ Achievements
 
 Achievements
 
-- Led the migration from GovUK PaaS to AWS ECS, ensuring a smooth transition through iterative deployments and comprehensive testing with Cypress. This involved configuring AWS services such as ECS, Cloudfront, Application Load Balancers, and Route 53.
+- Co-Led the migration from GovUK PaaS to AWS ECS, ensuring a smooth transition through iterative deployments and comprehensive testing with Cypress. This involved configuring AWS services such as ECS, Cloudfront, Application Load Balancers, and Route 53.
 - Developed a greenfield duty calculator to simplify Northern Ireland trade post-Brexit. This interactive form helped users understand complex regulations by guiding them through relevant questions about goods, measures, and rules of origin.
-- Revamped end-to-end tests using Cypress, following a Page Object Model to improve test coverage and maintainability. Reduced test suite runtime by 95% (from 6 hours to 30 minutes), enabling more frequent testing and increased release confidence. Implemented smoke tests to catch production issues early, significantly reducing production errors.
 - Developed and iteratively improved search engine functionality. This included enhancing autocomplete suggestions with trigram indexes (eliminating caching and improving performance), optimizing OpenSearch indexes with tokenization and synonyms, and implementing semantic text search using a neural network deployed via Dockerized Lambda functions. These improvements significantly increased search accuracy for both internal and external users
 
 <p>
