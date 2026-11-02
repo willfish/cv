@@ -1,171 +1,156 @@
 ---
 layout: cv
-title: William Fish - Senior Software Engineer - Ruby, DevOps, Python, Go
+title: William Fish - Lead Software Engineer
+description: Lead Software Engineer with 12+ years of experience across government digital services, insurance and fintech. Ruby, Python, AWS and AI-assisted search.
 ---
 
-<button id="print-button" onclick="window.print()">Print</button>
+<div class="cv-page" markdown="1">
+
+<header class="cv-header" markdown="1">
 
 # William Fish
 
-Senior Software Engineer - Ruby, DevOps, Python, Go
+<p class="headline">Lead Software Engineer</p>
+<p class="specialisms">Government digital services · Ruby, Python &amp; AWS</p>
 
-<div id="webaddress">
-  <a href="mailto:william.michael.fish@gmail.com">william.michael.fish@gmail.com</a> |
-  <a href="https://github.com/willfish">https://github.com/willfish</a>
+<nav class="contact" aria-label="Contact details">
+  <span>London, UK</span>
+  <a href="mailto:william.michael.fish@gmail.com">william.michael.fish@gmail.com</a>
+  <a href="https://github.com/willfish">github.com/willfish</a>
+  <a href="https://www.linkedin.com/in/william-fish-69494419/">linkedin.com/in/william-fish-69494419</a>
+</nav>
+
+</header>
+
+Lead Software Engineer with 12+ years' experience across public services, insurance and fintech. Currently leading technical delivery on HMRC's Online Trade Tariff, combining hands-on engineering with technical direction, coaching and production ownership. Experienced in making complex rules and information easier to use through government services, AI-assisted search and cloud infrastructure.
+{: .profile}
+
+## Core expertise
+
+- **Engineering:** Ruby / Rails, Python, Go, TypeScript, PostgreSQL, OpenSearch; APIs, hybrid search and AI evaluation.
+- **Delivery:** AWS / ECS, Terraform, Docker, CI/CD, automated testing with RSpec, Cypress and Playwright; technical leadership and service reliability.
+{: .expertise}
+
+## Experience
+
+<section class="role" aria-labelledby="hmrc-current" markdown="1">
+
+### HM Revenue & Customs
+{: #hmrc-current}
+
+**Lead Software Engineer** · Jan 2026–present<br>
+**Senior Software Engineer** · Jan–Dec 2025
+{: .progression}
+
+Online Trade Tariff · Government · Contract
+{: .role-context}
+
+- Lead technical direction for the Online Trade Tariff, shaping engineering decisions with product, delivery, design and domain specialists.
+- Coach developers through code reviews and knowledge sharing, supporting consistent engineering practices across the team.
+- Own release and production reliability work, investigating service faults and coordinating changes across application and infrastructure components.
+- Develop AI-assisted commodity search, including hybrid keyword and vector retrieval, while preserving existing search and navigation behaviour.
+- Develop evaluation and analytics tooling to assess search quality, journey outcomes and result selection, supporting evidence-led iteration.
+- Deliver user-facing search and guidance improvements using GOV.UK patterns, including accessible validation and recovery journeys.
+
+Ruby / Rails, Python, PostgreSQL, OpenSearch, AWS, Terraform, Docker
+{: .technologies}
+
+</section>
+
+<section class="role" aria-labelledby="indeed-flex" markdown="1">
+
+### Indeed Flex
+{: #indeed-flex}
+
+**Senior Software Engineer** · Oct–Nov 2024
+{: .progression}
+
+Flexible staffing platform · Contract
+{: .role-context}
+
+- Developed worker-to-job matching and ranking logic in a legacy Python and Ruby codebase, incorporating a new points-based scoring system.
+- Processed worker, job and shift datasets with SQLAlchemy and Pandas, including a backfill to correct historical data inaccuracies.
+
+</section>
+
 </div>
-## ABOUT ME
 
-Senior Software Engineer with extensive experience working across public services, insurance and fintech. I value simplicity in code and process, concise communication and short feedback loops. Proficient in DevOps practices, including designing and optimizing CI/CD pipelines, I ensure efficient and reliable software delivery.
+<div class="cv-page" markdown="1">
 
-## SUMMARY
+<section class="role" aria-labelledby="hmrc-earlier" markdown="1">
 
-Languages
-`Ruby, Python, Typescript, Go`
+### HM Revenue & Customs
+{: #hmrc-earlier}
 
-Frameworks
-`Rails, Flask, Express.js, Cypress, Playwright`
+**Senior Software Engineer** · Nov 2020–Dec 2023; Mar–Sep 2024
+{: .progression}
 
-Tools
-`Docker, Terraform, AWS, Kubernetes`
+Online Trade Tariff · Government · Contracts
+{: .role-context}
 
-Skill Areas
-`Frontends, Backends, Databases, API Development, DevOps`
+- Co-led the migration from GOV.UK PaaS to AWS ECS, using iterative deployments and Cypress testing across ECS, CloudFront, load balancing and DNS changes.
+- Built a duty calculator for Northern Ireland trade, guiding users through goods, measures and rules of origin to navigate post-Brexit requirements.
+- Improved search through PostgreSQL trigram autocomplete, OpenSearch tokenisation and synonyms, and semantic retrieval using a neural model deployed in containerised Lambda functions.
 
-Domains
-`Insurance, Fintech, Public Services`
+</section>
 
-## EXPERIENCE
+<section class="role" aria-labelledby="ministry-of-justice" markdown="1">
 
-**Indeed Flex - Senior Software Engineer**
-`Oct 2024 - Nov 2024`
+### Ministry of Justice
+{: #ministry-of-justice}
 
-*Recruitment (Contract)*
+**Software Engineer** · Apr–Dec 2020
+{: .progression}
 
-Achievements
+Book a Secure Move · Government · Contract
+{: .role-context}
 
-- Matching and Ranking Algorithm: Developed a new matching and ranking algorithm for worker-job allocation, overcoming challenges with evolving requirements and a complex legacy codebase. This involved mastering both Python and Ruby to deliver a solution that incorporated a new points system to improve worker scoring and ranking. The algorithm aimed to increase the average score of workers assigned to jobs, potentially leading to increased worker engagement and higher job fill rates
-- Data Processing: Utilized SQLAlchemy and Pandas to process large datasets of worker, job, and shift information. This involved complex SQL queries, data manipulation with Pandas, and the implementation of a backfill process to correct historical data inaccuracies.
+- Delivered Rails APIs and extensible event handling for the movement of people through courts and prisons.
+- Automated API documentation with Swagger and decommissioned legacy Kubernetes applications as part of the transition to Book a Secure Move.
 
-<p>
-  Key Technologies:
-  <em>Python</em>,
-  <em>Flask</em>,
-  <em>SQLAlchemy</em>,
-  <em>Pandas</em>,
-  <em>PyUnit</em>,
-  <em>Ruby</em>,
-  <em>Rails</em>
-</p>
+</section>
 
-**HMRC - Senior Software Engineer**,
-`Nov 2020 - Sep 2024`
+<section class="role" aria-labelledby="impero" markdown="1">
 
-*Public (Contract)*
+### Impero Software
+{: #impero}
 
-Achievements
+**Senior Software Engineer** · Nov 2019–Apr 2020
+{: .progression}
 
-- Co-Led the migration from GovUK PaaS to AWS ECS, ensuring a smooth transition through iterative deployments and comprehensive testing with Cypress. This involved configuring AWS services such as ECS, Cloudfront, Application Load Balancers, and Route 53.
-- Developed a greenfield duty calculator to simplify Northern Ireland trade post-Brexit. This interactive form helped users understand complex regulations by guiding them through relevant questions about goods, measures, and rules of origin.
-- Developed and iteratively improved search engine functionality. This included enhancing autocomplete suggestions with trigram indexes (eliminating caching and improving performance), optimizing OpenSearch indexes with tokenization and synonyms, and implementing semantic text search using a neural network deployed via Dockerized Lambda functions. These improvements significantly increased search accuracy for both internal and external users
+Education technology · Contract
+{: .role-context}
 
-<p>
-  Key Technologies:
-  <em>Ruby</em>,
-  <em>Rails</em>,
-  <em>Postgres</em>,
-  <em>Opensearch</em>,
-  <em>Go</em>,
-  <em>Python</em>,
-  <em>Flask</em>,
-  <em>ECS</em>,
-  <em>AWS</em>,
-  <em>Docker</em>
-</p>
+- Built infrastructure integration tests with Test Kitchen, Vagrant and VirtualBox to validate Puppet configuration and operating-system upgrades.
 
-**Ministry of Justice - Software Engineer**
-`Apr 2020 - Dec 2020`  
+</section>
 
-*Public (Contract)*
+<section class="role" aria-labelledby="mydrive" markdown="1">
 
-Achievements
+### MyDrive Solutions
+{: #mydrive}
 
-- Delivered backend APIs using Ruby on Rails to support the movement of prisoners throughout the courts and prison service. These APIs provided both informational and update functionalities.
-- Automated API documentation using Swagger, reducing developer overhead and ensuring accurate and up-to-date documentation.
-- Decommissioned legacy Kubernetes applications deployed with Helm Charts, ensuring a smooth transition to the new Book a Secure Move service.
-- Developed an extensible generic event implementation to enable stakeholders to update the system in an event-driven manner. This improved system flexibility and reduced overhead for handling new events
-- Ruby, Rails, Postgres, Redis, Kubernetes, Helm Charts, AWS, Docker
+**Senior Software Engineer** · Jan 2018–Oct 2019<br>
+**Software Engineer** · Jul 2014–Jan 2018
+{: .progression}
 
-<p>
-  Key Technologies:
-  <em>Ruby</em>,
-  <em>Rails</em>,
-  <em>Postgres</em>,
-  <em>Redis</em>,
-  <em>Kubernetes</em>,
-  <em>Helm</em>,
-  <em>AWS</em>,
-  <em>Docker</em>
-</p>
+Insurance telematics · Permanent
+{: .role-context}
 
-**Impero Software - Senior Software Engineer**
-`Nov 2019 - Apr 2020`
+- Built Rails services to ingest and pass mobile trip data into the insurance data pipeline.
+- Migrated CI from Jenkins to AWS CodeBuild and CodePipeline, and containerised applications for migration from EC2 to ECS using Terraform.
+- Built RSpec end-to-end coverage for core service integrations and supported production applications and infrastructure out of hours.
 
-*EdTech (Contract)*
+</section>
 
-Achievements
+<section class="additional education" aria-labelledby="education" markdown="1">
 
-- Implemented integration tests using Test Kitchen, Vagrant, and VirtualBox to validate infrastructure-as-code changes, ensuring the reliability and stability of core services during upgrades of Puppet recipes and OS versions.
+## Education
+{: #education}
 
-<p>
-  Key Technologies:
-  <em>Ruby</em>,
-  <em>Rails</em>,
-  <em>MariaDB</em>,
-  <em>Redis</em>,
-  <em>Azure</em>,
-  <em>Puppet</em>,
-  <em>Terraform</em>,
-  <em>AWS</em>,
-  <em>Debian</em>
-</p>
+**King's College London** · MSc Philosophy of Psychiatry · 2010–2011<br>
+**Swansea University** · BSc Psychology · 2007–2010
 
-**MyDrive Solutions - Senior Software Engineer**
-`Jul 2014 - Oct 2019`
+</section>
 
-*FinTech Startup (Permanent)*
-
-Achievements
-
-- Migrated our CI solution from a self-hosted Jenkins to codebuild and codepipeline
-- Migrated applications from EC2 to ECS with terraform by dockerising and then validating the transition from lower to upper environments
-- Built out of a Ruby on Rails phone platform to capture, handle and offload trip data from mobile phones to the MyDrive data pipeline
-- Designed and built an end-to-end test suite using RSpec to validate integrations of live services and prove core user journeys were not degraded by development activities
-
-Responsibilities
-
-- Collaborating with the wider team to ensure the right things got built
-- Reviewing and testing other developers code to prove work meets expectations
-- Out of hours support for the applications and infrastructure and keeping up our SLAs
-
-<p>
-  Key Technologies:
-  <em>Ruby</em>,
-  <em>Rails</em>,
-  <em>Postgres</em>,
-  <em>Redis</em>,
-  <em>Chef</em>,
-  <em>Terraform</em>,
-  <em>AWS</em>,
-  <em>Ubuntu</em>,
-  <em>PostGIS</em>
-</p>
-
-## EDUCATION
-
-`2010 - 2011`
-**King's College London**  
-MSc in Philosophy of Psychiatry (2.1)
-
-`2007 - 2010`
-**Swansea University**  
-BSc in Psychology (2.1)
+</div>

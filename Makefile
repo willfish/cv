@@ -2,7 +2,7 @@
 # Usage:
 #   make pdf   -> Generates PDF from index.md
 #   make docx  -> Generates DOCX from index.md
-#   make all   -> Generates both PDF and DOCX
+#   make all   -> Builds and serves the site locally
 
 HTML_FILE := index.html
 MARKDOWN=index.md
@@ -13,11 +13,14 @@ PRINT_CSS=media/davewhipp-print.css
 all: serve
 
 pdf: build
-	cd _site/ && wkhtmltopdf $(HTML_FILE) $(PDF_OUTPUT)
+	cd _site/ && wkhtmltopdf --enable-local-file-access --print-media-type --disable-smart-shrinking \
+		--page-size A4 --margin-top 0 --margin-bottom 0 \
+		--margin-left 0 --margin-right 0 \
+		$(HTML_FILE) $(PDF_OUTPUT)
 
-docx: $(MARKDOWN)
-	pandoc $(MARKDOWN) \
-		--from markdown \
+docx: build
+	sed -n '/<article /,/<\/article>/p' _site/$(HTML_FILE) | pandoc \
+		--from html \
 		--to docx \
 		--output $(DOCX_OUTPUT)
 
@@ -34,4 +37,3 @@ build:
 	jekyll build
 
 .PHONY: all pdf docx serve clean build
-

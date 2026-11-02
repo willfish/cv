@@ -1,299 +1,244 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+/* Shared document styles; print-specific rules live in davewhipp-print.css. */
+:root {
+  color-scheme: light;
+  --ink: #0b0c0c;
+  --muted: #505a5f;
+  --accent: #1d70b8;
+  --rule: #b1b4b6;
+  --focus: #ffdd00;
+  --paper: #fff;
+  --canvas: #f3f2f1;
+}
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--canvas);
+  color: var(--ink);
+  font-family: "Avenir Next", Avenir, "Segoe UI", Arial, sans-serif;
+  font-size: 100%;
+  line-height: 1.55;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.toolbar,
+main {
+  width: min(100% - 3rem, 58rem);
+  margin-inline: auto;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-block: 1rem;
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+main {
+  margin-bottom: 3rem;
+  padding: 3rem 3.5rem;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+}
+
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-	display: block;
-}
-
-body {
-	line-height: 1;
-}
-
-blockquote,
-q {
-	quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-	content: '';
-	content: none;
-}
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-/* end of reset */
-
-body {
-	font: normal normal 400;
-	font-size: 100%;
-	line-height: 1.5em;
-	/*also written as...  font: normal normal 400 100%/1.5em;*/
-	font-family: Avenir, Verdana, sans-serif;
-	margin-top: 1em;
-	margin-left: 1em;
-}
-
-p {
-	position: relative;
-	left: 25%;
-	margin-bottom: 0.7em;
-	margin-right: 0;
-	width: 60%;
-}
-
-code {
-	font: normal normal;
-	font-size: 90%;
-	/*line-height: 1em;*/
-	font-family: Monaco, Menlo, monospace, sans-serif;
-	color: #aaa;
-}
-
-p code {
-	position: absolute;
-	text-align: right;
-	right: 0%;
-}
-
 ul {
-	position: relative;
-	left: 25%;
-	width: 75%;
-	margin-bottom: 1.5em;
-	margin-top: -0.5em;
-	margin-left: 1.6em;
-}
-
-ul li::marker {
-	font-size: 1.6em;
-}
-
-li {
-	margin-right: 20%;
-	padding-left: 1.25em;
-	text-indent: -1.25em;
-}
-
-li ul {
-	position: relative;
-	left: 0;
-	width: 100%;
-	margin-top: 0.25em;
-}
-
-h1,
-h2,
-h3,
-h4 {
-	font-weight: 400;
-	font-family: Avenir, Cousine, Verdana, sans-serif;
-	width: 80%;
+  margin: 0;
 }
 
 h1 {
-	text-align: left;
-	font-size: 3em;
-	line-height: 1em;
-	position: relative;
-	left: 25%;
+  font-size: 2.75rem;
+  font-weight: 700;
+  letter-spacing: -0.045em;
+  line-height: 1.1;
 }
 
-h1+p {
-	/*subtitle*/
-	font-style: italic;
-	font-size: 110%;
+.headline {
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 
-h2 {
-	font-size: 1.1em;
-	color: #bc412b;
-	margin-top: 3em;
-	position: relative;
-	top: 1.4em;
-	text-align: right;
-	width: 20%;
+.specialisms {
+  margin-top: 0.15rem;
+  color: var(--muted);
 }
 
-h3 {
-	font-size: 1em;
-	line-height: 2em;
-	position: relative;
-	top: 1.7em;
-	text-align: right;
-	width: 20%;
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1.15rem;
+  row-gap: 0.3rem;
+  margin-top: 1rem;
+  font-size: 0.875rem;
 }
 
 a {
-	color: inherit;
-	/*text-decoration:none*/
+  color: var(--accent);
+  text-decoration-thickness: 0.07em;
+  text-underline-offset: 0.18em;
+  overflow-wrap: anywhere;
 }
 
 a:hover {
-	color: #39f
+  text-decoration-thickness: 0.13em;
 }
 
-#webaddress {
-	margin-top: 1em;
-	position: relative;
-	left: 25%;
-	color: #bc412b;
-	font-family: Monaco, Menlo, monospace, sans-serif;
-	font-size: 100%;
+a:focus-visible,
+button:focus-visible {
+  outline: 3px solid var(--ink);
+  outline-offset: 4px;
 }
 
-em {
-	color: #2D4E5E;
+a:focus-visible,
+#print-button:focus-visible {
+  background: var(--focus);
+  color: var(--ink);
 }
 
-#webaddress a {
-	text-decoration: none;
+.profile {
+  margin-top: 1.4rem;
 }
 
-em {
-	/* font-weight: bold; */
-	font-style: italic;
+h2 {
+  margin-top: 1.75rem;
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--rule);
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
 }
 
-strong {
-	font-weight: bold;
+h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.3;
 }
 
-#address {
-	display: none;
+.role + .role {
+  margin-top: 1.5rem;
+}
+
+.cv-page + .cv-page {
+  margin-top: 1.5rem;
+}
+
+.progression {
+  margin-top: 0.3rem;
+  font-size: 0.9375rem;
+}
+
+.progression strong {
+  font-weight: 600;
+}
+
+.role-context,
+.technologies {
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+.role-context {
+  margin-top: 0.15rem;
+}
+
+ul {
+  margin-top: 0.65rem;
+  padding-left: 1.15rem;
+}
+
+li + li {
+  margin-top: 0.35rem;
+}
+
+li::marker {
+  color: var(--accent);
+}
+
+.expertise {
+  margin-top: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.9375rem;
+}
+
+.technologies {
+  margin-top: 0.6rem;
+}
+
+.additional p {
+  font-size: 0.9375rem;
 }
 
 #print-button {
-  display: inline-block;
-  margin: 1em 0;
-  padding: 10px 20px;
-  font-family: Avenir, Verdana, sans-serif;
-  font-size: 1em;
-  font-weight: bold;
-  color: white;
-  background-color: #bc412b; /* Matches the header color */
-  border: none;
-  border-radius: 5px; /* Rounded edges */
+  min-height: 44px;
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--accent);
+  border-radius: 3px;
+  background: var(--paper);
+  color: var(--accent);
+  font: inherit;
+  font-weight: 600;
   cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 #print-button:hover {
-  background-color: #a63724; /* Darker shade on hover */
-  transform: scale(1.05); /* Slight zoom on hover */
+  background: var(--accent);
+  color: var(--paper);
 }
 
-#print-button:active {
-  background-color: #8c2f1d; /* Even darker shade when clicked */
-  transform: scale(0.95); /* Slight "press" effect */
+@media screen and (max-width: 40rem) {
+  html {
+    background: var(--paper);
+  }
+
+  .toolbar,
+  main {
+    width: 100%;
+    padding-inline: 1.25rem;
+  }
+
+  .toolbar {
+    font-size: 0.8125rem;
+  }
+
+  main {
+    margin-bottom: 0;
+    padding-top: 1.25rem;
+    padding-bottom: 2rem;
+    border: 0;
+  }
+
+  h1 {
+    font-size: 2.25rem;
+  }
+
+  .headline {
+    font-size: 1.125rem;
+  }
+
+  .contact {
+    column-gap: 1rem;
+    row-gap: 0.5rem;
+  }
+
+  .contact a {
+    padding-block: 0.15rem;
+  }
 }
